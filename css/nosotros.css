@@ -1,0 +1,33 @@
+.section-nosotros{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap:0.5rem;
+    padding: 2rem;
+    padding-left: 3rem;
+    background-color: #f0f5fa;
+    align-items: center;
+    position: relative;
+}
+
+.info-item{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap:1rem;
+    padding: 2rem;
+    padding-top: 0rem;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.info-item-title{
+    font-size: 30px;
+    color: #f3a353;
+}
+
+.info-item-content{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap:1rem;
+    font-size: 20px;
+    
+}
